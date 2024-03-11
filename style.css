@@ -114,10 +114,25 @@ body {
 }
 .attribution {
     position: absolute;
-    bottom: 1px;
+    bottom: 6px;
     text-align: center;
 }
 .attribution a {
     color: var(--Moderate-violet);
     text-decoration: none;
+}
+@media (max-width: 920px) {
+    body {
+        width: 100%;
+        height: auto;
+        padding:  60px 24px;
+    }
+    .main-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-container .container {
+        width: auto;
+    }
 }
