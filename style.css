@@ -26,15 +26,15 @@ body {
     position: relative;
 }
 .main-container {
-    width: 1085px;
+    width: 1160px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 26px;
+    gap: 28px;
 }
 .main-container .container {
     width: 100%;
     border-radius: 12px;
-    padding: 28px 34px;
+    padding: 28px 32px;
     background-color: var(--White);
     box-shadow: 22px 24px 82px -25px rgba(0,0,0,0.32);
 }
@@ -59,8 +59,8 @@ body {
     border-radius: 50%;
 }
 .main-container .container h2 {
-    font-size: 19.5px;
-    font-weight: 500;
+    font-size: 21.1px;
+    font-weight: 600;
     margin-bottom: 24px;
     color: var(--Light-grayish-blue);
     opacity: 98%;
